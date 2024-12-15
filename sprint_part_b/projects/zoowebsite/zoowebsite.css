@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+#animalsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.animal {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.animal h1 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.animal p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+
+.animal p br {
+    margin-bottom: 5px;
+}
+
+
+.animal p:nth-child(3) {
+    font-style: italic;
+    color: #2980b9;
+}
+
+
+.animal p:nth-child(4) {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    #animalsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .animal {
+        width: 80%;
+        max-width: 350px;
+    }
+}

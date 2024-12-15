@@ -1,0 +1,249 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(112, 111, 111);
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px  #05d327;
+  }
+  
+  /* Header and Navigation Styles */
+  header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 12vh; /* Header height is 15% of the viewport height */
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  header nav ul li {
+    margin-right: 1.25em;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    font-size: 2vw; /* Font size relative to viewport width */
+    padding: 0.5em 1.25em;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    border-radius: 5px;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 2em 1em;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5vh; /* Font size relative to viewport height */
+    margin-bottom: 1.5em;
+  }
+  
+  h2 {
+    font-size: 4vh; /* Font size relative to viewport height */
+    margin-bottom: 2em;
+  }
+  
+  p {
+    font-size: 2vw; /* Font size relative to viewport width */
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 2vw; /* Font size relative to viewport width */
+    margin-bottom: 1.5em;
+  }
+  
+  /* Project Gallery Styles */
+  .project-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.25em;
+  }
+  
+  .project-gallery a {
+    background-color: rgb(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1.5em 2.5em;
+    border-radius: 5px;
+    font-size: 2.5vw; /* Font size relative to viewport width */
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 50%;
+    max-width: 18em;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .project-gallery a:hover {
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
+  }
+  
+  .project-gallery a:active {
+    background-color: #004085;
+  }
+  
+  .wrapper {
+    background-color:rgb(112, 111, 111);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapperinner {
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  form {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2.5em 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-size: 2.2vw; /* Font size relative to viewport width */
+    margin-bottom: 1.5em;
+    display: block;
+  }
+  
+  form input {
+    width: 50%;
+    padding: 1.25em;
+    font-size: 2vw; /* Font size relative to viewport width */
+    margin-bottom: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: rgb(51, 51, 51, 0.8);
+    color: white;
+    font-size: 2vw; /* Font size relative to viewport width */
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  form button:hover {
+    background-color: rgb(51, 51, 51);
+    text-shadow: 2px 2px 5px  #05d327;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 2.5em;
+    font-size: 2vw; /* Font size relative to viewport width */
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0.5em 0;
+      height: 15vh;
+    }
+  
+    header nav ul {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    header nav ul li {
+      margin-bottom: 1em;
+    }
+  
+    header nav ul li a {
+      font-size: 4vw; /* Font size adjusted for smaller screens */
+      padding: 0.5em 1em;
+    }
+  
+    section {
+      padding: 2em 1em;
+    }
+  
+    h1 {
+      font-size: 8vh; /* Larger font size for small screens */
+    }
+  
+    h2 {
+      font-size: 6vh; /* Larger font size for small screens */
+    }
+  
+    p, ul li {
+      font-size: 4vw; /* Larger font size for smaller screens */
+    }
+  
+    .project-gallery a {
+      width: 90%;
+    }
+  
+    form {
+      padding: 2em 2.5em;
+    }
+  
+    footer {
+      font-size: 4vw; /* Adjust footer font size for small screens */
+    }
+  }
+  

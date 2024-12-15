@@ -1,0 +1,51 @@
+[ 
+        {
+            "animalName": "Patrick",
+            "species": "Panthera leo",
+            "commonName": "Lion",
+            "gender": "male",
+            "birthdate": "2015-04-15",
+            "conservationStatus": "Vulnerable",
+            "diet" : "Carnivore",
+            "lifeSpan" : "Around 10-14 years in the wild, and up to 20 years in captivity.",
+            "revenue" : 250000,
+            "expenses" : 50000   
+        },
+        {
+            "animalName": "Roberta",
+            "species": "Loxodonta africana",
+            "commonName": "African Elephant",
+            "gender": "female",
+            "birthdate": "2010-08-22",
+            "conservationStatus": "Vulnerable",
+            "diet" : "Herbivore",
+            "lifeSpan" : " Around 60-70 years in the wild, and sometimes a bit longer in captivity.", 
+            "revenue" : 500000,
+            "expenses" : 100000
+        },
+        {
+            "animalName": "Jill",
+            "species": "Aptenodytes forsteri",
+            "commonName": "Emperor Penguin",
+            "gender": "female",
+            "birthdate": "2018-11-01",
+            "conservationStatus": "Near Threatened",
+            "diet":"Carnivore",
+            "lifeSpan" : "Around 15 to 20 years in the wild and around 25 years in captivity.",
+            "revenue" : 150000,
+            "expenses" : 10000
+        },
+        {
+            "animalName": "Jimmy",
+            "species": "Macropus rufus",
+            "commonName": "Red Kangaroo",
+            "gender": "male",
+            "birthdate": "2016-06-03",
+            "conservationStatus": "Least Concern",
+            "diet" : "Herbivore",
+            "lifeSpan" : "Around 8-12 years in the wild, and up to 20 years in captivity.",
+            "revenue" : 100000,
+            "expenses" : 20000
+        }
+    ]
+

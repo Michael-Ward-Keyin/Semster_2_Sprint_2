@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="wrapperinner">
+            <section id="home">
+                <h1>Welcome to My Portfolio</h1>
+                <p>"I’m a web developer who likes to build websites that are fun, interactive, and just easy to use.<br> If it’s not smooth and simple, I’m not doing my job right."</p>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="project-gallery">
+                <a href="projects\webdevgame\clickgame.html">The Wizard's Enchanted trial</a>
+                <a href="projects\zoowebsite\zoowebsite.html">Zoo Animal information showcasing DOM manipultaion</a>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
